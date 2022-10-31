@@ -1,0 +1,142 @@
+@import 'fonts.css';
+
+.title{
+     font-size: 36px;
+     color: #e27c28;
+     font-family: var(--a);
+     border-bottom: 2px solid #e27c28;
+     width: 83px;
+     
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     list-style:none;
+     box-sizing: border-box;
+     text-decoration: none;
+     
+}
+body{
+     min-width: 320px;
+
+}
+:root{
+     --a:'arialmt';
+     --i:'impact';
+}
+/*header start */
+header .poster{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 26px 0;
+     background:linear-gradient(to right, #4a0f98,#b16616);
+}
+.container{
+     max-width: 1140px;
+     width: 100%;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+
+header .poster i{
+     font-size: 51px;
+     color: #fefefe;
+     
+}
+header .poster p{
+     font-size: 18px;
+     color: #fefefe;
+     max-width: 160px;
+     width: 100%;
+     margin-left: 21px;
+     font-family: var(--a);
+     
+}
+header nav .menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+header .menu ul{
+     display: flex;
+     
+}
+header nav{
+     background: #000;
+}
+header .menu ul a{
+     font-size: 18px;
+     color: #fff;
+     font-family: var(--a);
+     padding: 43px 12px 44px 12px;
+     display: flex;
+     border-bottom: 3px solid transparent;
+     transition: 0.5s;
+}
+header .menu ul a:hover{
+     color: #e27c28;
+     border-bottom: 3px solid #e27c28 ;
+}
+/*header end*/
+/* ************************************** */
+/* main fon start */
+
+.main-fon{
+     background: url(../img/header-fon.jpg) no-repeat center/cover;
+     padding-top: 185px;
+     padding-bottom: 169px;
+     
+}
+.main-fon h1{
+     font-size: 60px;
+     color: #fff;
+     font-family: var(--i);
+}
+
+.main-fon p{
+     font-size: 18px;
+     color: #fff;
+     font-family: var(--a);
+     margin-top: 37px;
+     max-width: 578px;
+     width: 100%;
+}
+.main-fon .item-link a{
+     font-size: 18px;
+     color: #fff;
+     font-family: var(--a);
+     width: 164px;
+     height: 43px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #000;
+     border-radius: 8px;
+     transition: 0.5s;
+     
+
+}
+.main-fon .item-link{
+     display: flex;
+     justify-content: space-between;
+     width: 360px;
+     margin-top: 80px;
+}
+.main-fon .item-link a:hover{
+     background: #fff;
+     color: #000;
+}
+/*main fon end*/
+/*  ****************************** */
+/*fimls start */
+.films{
+     background: #02153a;
+     padding-top: 64px;
+     padding-bottom:74px;
+     
+}
